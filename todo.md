@@ -4,4 +4,5 @@
   - go run hoge.go
 - http webサーバーを立てる
   - http.ListenAndServe()
-- 
+- GET, POSTを作る
+  - json.Marshal() : jsonの文字列に変換
