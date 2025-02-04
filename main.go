@@ -5,14 +5,6 @@ import (
 	"net/http"
 )
 
-func helloHandler(w http.ResponseWriter, r *http.Request) {
-	hello := []byte("Hello World!!!")
-	_, err := w.Write(hello)
-	if err != nil {
-		log.Fatal(err)
-	}
-}
-
 func postTodoHandler(w http.ResponseWriter, r *http.Request) {
 	hello := []byte("Hello POST!!!")
 	_, err := w.Write(hello)
