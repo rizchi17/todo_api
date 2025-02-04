@@ -1,0 +1,3 @@
+- repositoryのセットアップ
+  - go mod init github.com/rizchi17/todo_api
+- アプリケーションの実行
