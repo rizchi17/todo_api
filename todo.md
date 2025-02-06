@@ -6,3 +6,4 @@
   - http.ListenAndServe()
 - GET, POSTを作る
   - json.Marshal() : jsonの文字列に変換
+- PUT, DELETEを作る
