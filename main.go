@@ -102,7 +102,7 @@ func main() {
 	todoMux := http.NewServeMux()
 	todoMux.HandleFunc("POST /todos", postTodoHandler)
 	todoMux.HandleFunc("GET /todos", listTodosHandler)
-	todoMux.HandleFunc("UPDATE /todos/{id}", updateTodoHandler)
+	todoMux.HandleFunc("PUT /todos/{id}", updateTodoHandler)
 	todoMux.HandleFunc("DELETE /todos/{id}", deleteTodoHandler)
 
 	err := http.ListenAndServe(":8080", todoMux)
